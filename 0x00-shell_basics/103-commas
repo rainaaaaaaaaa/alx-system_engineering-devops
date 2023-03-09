@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1p | awk '{printf "%s%s", $0, (NR%3 ? "," : "\n")}' | sed 's/[^\/]*\//&\//' | sort -df
+ls -ampv
