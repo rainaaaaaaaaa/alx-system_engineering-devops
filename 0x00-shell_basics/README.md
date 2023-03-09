@@ -1,1 +1,1 @@
-shell basis readme file
+shell basics readme file
