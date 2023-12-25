@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script attempts to stop the 7-highlander process indirectly
+touch stop_signal
+while [ -f stop_signal ]; do
+    sleep 1
+done
+rm -f stop_signal
+echo "7-highlander process has been stopped."
